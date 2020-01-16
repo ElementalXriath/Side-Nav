@@ -13,6 +13,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import ViewOne from '../components/View1/View';
+import ViewTwo from '../components/View2/View';
 
 
 // This will be your highest component in this views 
