@@ -86,14 +86,14 @@ function ResponsiveDrawer(props) {
         // Using a Switch Statement to change the view based on the state of this hook
             const [ view , setView ] = React.useState('ViewOne');
 
-            let view = <div>View List</div>;
+            let viewPort = <div>View List</div>;
         
             switch(view) {
                 case 'ViewOne':
-                  view = <ViewOne />
+                  viewPort = <ViewOne />
                   break;
                 case 'ViewTwo':
-                  view = <ViewTwo />
+                  viewPort = <ViewTwo />
                   break;
                 default:
                   // code block
@@ -163,7 +163,7 @@ function ResponsiveDrawer(props) {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-       {views}
+       {viewPort}
       </main>
     </div>
   );
